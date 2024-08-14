@@ -1,0 +1,32 @@
+{
+  "id": "4a94f826-0a72-47e5-869d-d554fa01b7ec",
+  "name": "Style",
+  "publisher": "Keith How",
+  "version": "1.0.0.0",
+  "brief": "Style Examples",
+  "description": "Style Examples",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./logo/KNH.jpg",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 52060,
+      "to": 52069
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "9.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
