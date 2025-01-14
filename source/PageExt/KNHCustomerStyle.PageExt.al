@@ -13,12 +13,12 @@ pageextension 52060 "KNHCustomerStyle" extends "Customer List"
 
     trigger OnOpenPage()
     begin
-        SetStyle();
+        this.SetStyle();
     end;
 
     trigger OnAfterGetCurrRecord()
     begin
-        SetStyle();
+        this.SetStyle();
     end;
 
     var
@@ -34,5 +34,6 @@ pageextension 52060 "KNHCustomerStyle" extends "Customer List"
             'Export':
                 MyStyle := 'Ambiguous';
         end;
+
     end;
 }
