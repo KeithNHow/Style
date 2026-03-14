@@ -1,7 +1,7 @@
 /// <summary>
-/// PageExtension KNH Customer Style (ID 52040) extends Record Customer List.
+/// PageExtension extends Record Customer List. It changes the style of the field Name based on the value of the field Gen. Bus. Posting Group.
 /// </summary>
-pageextension 52060 "KNHCustomerStyle" extends "Customer List"
+pageextension 52060 KNHCustomerStyle extends "Customer List"
 {
     layout
     {
